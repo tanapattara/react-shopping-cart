@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Counter from './components/counter';
+//import Counter from './components/counter';
+import Counterlist from "./components/counterlist";
 
 ReactDOM.render(
-  <Counter />,
+  <Counterlist />,
   document.getElementById('root')
 );
 

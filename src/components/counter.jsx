@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 
 class Counter extends Component {
-    state = {count: 0, imageUrl: "https://picsum.photos/50",};
+    state = {
+        count: this.props.value,
+        imageUrl: "https://picsum.photos/50",
+    };
+    
     render() { 
         let classes = this.getBadgeClasses();
 
